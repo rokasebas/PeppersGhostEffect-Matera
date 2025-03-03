@@ -45,7 +45,7 @@ import * as THREE from 'three';
 
 const fbxLoader = new FBXLoader()
 
-fbxLoader.load('assets/indoorplant.fbx',
+fbxLoader.load('./assets/indoorplant.fbx',
     (object) => {
         console.log('Modelo cargado:', object);
         
