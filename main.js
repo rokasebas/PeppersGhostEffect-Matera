@@ -92,7 +92,7 @@ fbxLoader.load('assets/indoorplant.fbx',
                 // Hace que cualquier objeto con geometría en la escena rote
                 scene.traverse((child) => {
                     if (child.isMesh) {
-                        child.rotation.y += 0.06; // Rota el modelo en el eje Y
+                        child.rotation.y += 0.0006; // Rota el modelo en el eje Y
                     }
                 });
             
